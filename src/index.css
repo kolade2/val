@@ -13,7 +13,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #ff9993;
+  background-color: #ff92ff;
 }
 
 h1 {
@@ -29,13 +29,14 @@ button {
   margin: 0.5rem;
   font-weight: 500;
   font-family: inherit;
-  background-color: #ff505c;
+  background-color: #ff417a;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 
 button:hover {
-  border-color: #ffffff;
+  border-color: #310044;
+
 }
 
 button:focus,
@@ -43,11 +44,16 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.yesButton{
+  background-color: #ffffff;
+  border: 2px solid #ff417a;
+}
 .text{
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 30px;
-  color: yellow;
+  font-size: 35px;
+  color: rgb(74, 0, 88);
   font-weight: 500;
+  font-weight: bold;
   margin: 10px;
 }
 
@@ -66,4 +72,24 @@ button:focus-visible {
   gap:10px
 }
 
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
 
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.valentine-container{
+  width: 950px;
+  height: auto;
+  margin: 0;
+  padding: 5px;
+}
