@@ -38,14 +38,14 @@ function App() {
         <>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" alt="bear-Kissing" />
           <div classname="youtubeEmbed">
-            <YoutubeEmbed embedId="0F35FXOuJM" />
+            <YoutubeEmbed embedId="HcdCjXPR9D8" />
           </div>
           <div className='text'>Watch me!</div>
         </>
       ) : ( // Display content before clicking the "YES" button
         <>
           <img className='kiss' src="https://i.pinimg.com/originals/73/89/aa/7389aaa2a73b071ee7d3d782310e590b.gif" alt="bear with heart" />
-          <div className='text'>Will you be my valentine SanaaBaby 🌹?</div>
+          <div className='text'>Will you be my valentine baby🌹?</div>
           <div className='both-Button'>
             <button className='yesButton'
             style={{ fontSize: yesButtonSize }}
